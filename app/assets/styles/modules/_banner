@@ -1,0 +1,6 @@
+.banner {
+  background-color: $primaryBrand;
+  width:100%;
+  min-height: 200px;
+  margin:0;
+}

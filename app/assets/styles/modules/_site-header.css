@@ -6,15 +6,15 @@
   transition: background-color .3s ease-out;
 
   &--is-expanded {
-    background-color: rgba($mainBlue, .55);
+    background-color: rgba($primaryBrand, .55);
   }
 
   @mixin atMedium {
     position: fixed;
-    background-color: rgba($mainBlue, .3);
+    background-color: rgba($primaryBrand, .3);
 
     &--dark {
-      background-color: rgba(23, 51, 72, .85);
+      background-color: rgba($primaryBrand, .85);
     }
   }
 
@@ -33,6 +33,7 @@
     transform-origin: 50% 0;
     background-color: $mainBlue;
     padding: 25px 36px;
+
 
     @mixin atMedium {
       left: auto;

@@ -11,6 +11,13 @@
     background-color: $mainOrange
   }
 
+  &--border-green {
+    border: 6px solid $darkGreen;
+    background: transparent;
+    color: $darkGreen;
+    text-transform: uppercase;
+  }
+
   &--large {
     padding: 1.1rem 1.9rem;
 
