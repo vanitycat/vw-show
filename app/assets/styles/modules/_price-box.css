@@ -6,7 +6,7 @@
   margin-bottom: 98px;
   margin-left: auto;
   margin-right: auto;
-  width: 70%;
+  width: 80%;
   @mixin atLarge {
     padding: 1.8125rem;
     margin-bottom: 0;
@@ -27,10 +27,10 @@
   }
 
   &__title {
-    color: $mainBlue;
+    color: #000000;
     text-align: center;
     font-size: 1.5rem;
-    font-weight: 500;
+    font-weight: 600;
     margin: 0;
 
     &--white {
@@ -41,8 +41,8 @@
   &__subtitle {
     color: $mainOrange;
     text-align: center;
-    font-weight: 400;
-    font-size: 0.9375rem;
+    font-weight: 600;
+    font-size: 1.5rem;
     margin: .25rem 0 1rem 0;
 
   }

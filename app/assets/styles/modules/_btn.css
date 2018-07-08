@@ -21,7 +21,8 @@
   &--border-light-green {
     border: 6px solid $lightGreen;
     background: transparent;
-    color: $lightGreen;
+    color: #000000;
+    font-weight: 600;
     text-transform: uppercase;
   }
 

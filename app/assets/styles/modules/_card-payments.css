@@ -1,0 +1,17 @@
+.card-payments {
+
+  &__title {
+    display: inline;
+    font-size: 2rem;
+  }
+
+  &__icons{
+      list-style-type: none;
+      display: inline-block;
+
+      li {
+        display: inline-block;
+        font-size: 3rem;
+      }
+  }
+}

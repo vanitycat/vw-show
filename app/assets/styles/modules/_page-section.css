@@ -24,20 +24,40 @@
   }
 
   &--testimonials {
-    background-color: #e0e6ef;
+    background-color: $mediumGreen;
     @mixin atLarge {
       &.lazyloaded {
       background-color: $mediumGreen;
       }
     }
+  }
 
     &--tickets {
-      background-color: #e0e6ef;
+      background-color: #ffffff;
       @mixin atLarge {
         &.lazyloaded {
         background-color: #ffffff;
         }
       }
+    }
+
+  &--cta-club {
+    background-color: $mediumGreen;
+    @mixin atLarge {
+      &.lazyloaded {
+      background-color: $mediumGreen;
+      }
+    }
+  
+
+
+  &--whats-on {
+    background-color: #ffffff;
+    @mixin atLarge {
+      &.lazyloaded {
+      background-color: #ffffff;
+      }
+    }
   }
 
 }

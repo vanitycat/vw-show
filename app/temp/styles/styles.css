@@ -439,6 +439,10 @@ a {
   color: #987933;
 }
 
+.text-center {
+  text-align: center;
+}
+
 .large-hero {
   position: relative;
   border-bottom: 10px solid #493329;
@@ -596,7 +600,8 @@ a {
 .btn--border-light-green {
   border: 6px solid #A1AF8B;
   background: transparent;
-  color: #A1AF8B;
+  color: #000000;
+  font-weight: 600;
   text-transform: uppercase;
 }
 
@@ -751,7 +756,7 @@ a {
 }
 
 .page-section--testimonials {
-  background-color: #e0e6ef;
+  background-color: #6B8649;
 }
 
 @media (min-width: 1010px) {
@@ -761,13 +766,35 @@ a {
   }
 }
 
-.page-section--testimonials--tickets {
-  background-color: #e0e6ef;
+.page-section--tickets {
+  background-color: #ffffff;
 }
 
 @media (min-width: 1010px) {
 
-  .page-section--testimonials--tickets.lazyloaded {
+  .page-section--tickets.lazyloaded {
+    background-color: #ffffff;
+  }
+}
+
+.page-section--cta-club {
+  background-color: #6B8649;
+}
+
+@media (min-width: 1010px) {
+
+  .page-section--cta-club.lazyloaded {
+    background-color: #6B8649;
+  }
+}
+
+.page-section--cta-club--whats-on {
+  background-color: #ffffff;
+}
+
+@media (min-width: 1010px) {
+
+  .page-section--cta-club--whats-on.lazyloaded {
     background-color: #ffffff;
   }
 }
@@ -1049,85 +1076,97 @@ a {
 }
 
 .icon {
-      background-image: url('../../assets/images/sprites/sprite-46e7ea45.svg');
+      background-image: url('../../assets/images/sprites/sprite-def6c263.svg');
     }
 
 .icon--clear-view-escapes {
     width: 142.4px;
     height: 59.53px;
-    background-position: 99.58217270194986% 0;
+    background-position: 67.84335355763926% 71.72551608471461%;
   }
 
 .icon--comment {
     width: 64px;
     height: 64px;
-    background-position: 28.82882882882883% 63.63636363636363%;
+    background-position: 82.08616780045351% 83.0089928057554%;
   }
 
 .icon--facebook {
     width: 21.23px;
     height: 42.01px;
-    background-position: 97.73765910035124% 30.06717510985403%;
+    background-position: 93.63953945056535% 61.246734372567%;
   }
 
 .icon--fire {
     width: 56px;
     height: 64px;
-    background-position: 55.65217391304348% 63.63636363636363%;
+    background-position: 54.788418708240535% 83.0089928057554%;
+  }
+
+.icon--flowery-vw {
+    width: 505px;
+    height: 290px;
+    background-position: 0 0;
   }
 
 .icon--globe {
     width: 64px;
     height: 64px;
-    background-position: 0 63.63636363636363%;
+    background-position: 96.59863945578232% 83.0089928057554%;
   }
 
 .icon--instagram {
     width: 42.01px;
     height: 42.01px;
-    background-position: 50.821754989958606% 88.89337845345725%;
+    background-position: 83.88950085315017% 69.55137632138964%;
   }
 
 .icon--logo {
     width: 143px;
     height: 112px;
-    background-position: 0 0;
+    background-position: 67.95580110497238% 57.08661417322835%;
   }
 
 .icon--mail {
     width: 64px;
     height: 48px;
-    background-position: 64.41441441441441% 31.005208333333332%;
+    background-position: 88.20861678004535% 61.88811188811189%;
   }
 
 .icon--rain {
     width: 64px;
     height: 64px;
-    background-position: 82.88288288288288% 63.63636363636363%;
+    background-position: 88.20861678004535% 52.15827338129496%;
+  }
+
+.icon--shop {
+    width: 246px;
+    height: 330px;
+    background-position: 0 100%;
   }
 
 .icon--star {
     width: 64px;
     height: 64px;
-    background-position: 0 100%;
+    background-position: 55.78231292517007% 94.51978417266187%;
   }
 
 .icon--twitter {
     width: 51.78px;
     height: 42.06px;
-    background-position: 88.37844761335496% 30.074770132363344%;
+    background-position: 99.9514584528485% 50.17821919230369%;
   }
 
 .icon--wifi {
     width: 60px;
     height: 64px;
-    background-position: 28.31858407079646% 100%;
+    background-position: 67.86516853932584% 83.0089928057554%;
   }
 
 .icon--youtube {
     width: 34.75px;
     height: 42px;
-    background-position: 98.70646766169155% 56.56565656565657%;
+    background-position: 91.52791068580542% 69.55017301038062%;
   }
 
 .site-footer {
@@ -1572,7 +1611,7 @@ a {
   margin-bottom: 98px;
   margin-left: auto;
   margin-right: auto;
-  width: 70%;
+  width: 80%;
 }
 
 @media (min-width: 1010px) {
@@ -1598,10 +1637,10 @@ a {
 }
 
 .price-box__title {
-  color: #2f5572;
+  color: #000000;
   text-align: center;
   font-size: 1.5rem;
-  font-weight: 500;
+  font-weight: 600;
   margin: 0;
 }
 
@@ -1612,7 +1651,38 @@ a {
 .price-box__subtitle {
   color: #987933;
   text-align: center;
-  font-weight: 400;
-  font-size: 0.9375rem;
+  font-weight: 600;
+  font-size: 1.5rem;
   margin: .25rem 0 1rem 0;
+}
+
+.cta-gallery {
+  position: relative;
+  border-bottom: 10px solid #493329;
+  overflow: hidden;
+  text-align: center;
+}
+
+.cta-gallery__image {
+  display: block;
+}
+
+.cta-gallery__btn {
+  position: absolute;
+  top: 50%;
+}
+
+.card-payments__title {
+  display: inline;
+  font-size: 2rem;
+}
+
+.card-payments__icons{
+  list-style-type: none;
+  display: inline-block;
+}
+
+.card-payments__icons li {
+  display: inline-block;
+  font-size: 3rem;
 }
