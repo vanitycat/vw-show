@@ -1,7 +1,11 @@
 $mainBlue: #2f5572;
-$mainOrange: #d59541;
+$mainOrange: #987933;
+$mediumGreen:#6B8649;
 $mainGreen: #5BA785;
 $darkGreen:#115D28;
+$darkBrown:#493329;
+$lightGreen: #A1AF8B;
 
 
 $primaryBrand: $mainGreen;
+$secondaryBrand: $mainOrange;

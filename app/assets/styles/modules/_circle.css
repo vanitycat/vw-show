@@ -1,0 +1,45 @@
+.circle__text {
+  position: absolute;
+  text-transform: uppercase;
+  width:50%;
+
+
+
+  &--left {
+    top:48.75%;
+    left: 4%;
+  }
+
+  &--right {
+    top:48.75%;
+    right: -31.75%;
+  }
+}
+
+  .circle__text:after {
+    content: "";
+    display: block;
+    width:30%;
+    height: 0;
+    padding-bottom: 30%;
+    background-color: rgba($primaryBrand, .76);
+    border-radius: 50%;
+
+  }
+
+.circle__text div {
+  float: left;
+  width: 30%;
+  padding-top: 15%;
+  line-height: 1em;
+  font-size: .9rem;
+  font-weight: 600;
+  margin-top: -0.5em;
+  text-align: center;
+  color: $darkBrown;
+
+  @mixin atMedium {
+    font-size: 1.5rem;
+  }
+
+}

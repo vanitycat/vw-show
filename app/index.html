@@ -2,7 +2,9 @@
 <html>
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"
+  type="text/css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
   <!-- build:css assets/styles/styles.css -->
   <link rel="stylesheet" href="temp/styles/styles.css">
   <!-- endbuild -->
@@ -17,7 +19,7 @@
     <header class="site-header">
       <div class="wrapper">
         <div class="site-header__logo">
-          <div class="site-header__logo__graphic icon icon--clear-view-escapes">
+          <div class="site-header__logo__graphic icon">
             Quex Park VW Show
           </div>
         <img class="site_header__logo">
@@ -43,58 +45,89 @@
         <div class="large-hero__text-content">
           <div class="wrapper">
               <div class="large-hero__box">
-                <h2 class="large-hero__subtitle">Home is where you park</h2>
-                <h2 class="large-hero__subtitle">28-30 june 2019</h2>
-                <h2 class="large-hero__subtitle">Quex park</h2>
+                <div class="large-hero__logo icon icon--logo"></div>
+                <h2 class="large-hero__subtitle large-hero__subtitle--brown-white">Home is where you park</h2>
+                <h2 class="large-hero__subtitle large-hero__subtitle--white">28-30 june 2019</h2>
+                <h2 class="large-hero__subtitle large-hero__subtitle--green">Quex park</h2>
                 <p><a href="#" class="btn btn--border-green btn--large open-modal">Tickets on sale now</a></p>
               </div><!-- /.large-hero__box -->
           </div>
         </div>
 
-        <div class="large-hero__circle large-hero__circle--left ">
-          <a href="#" class="large-hero__circle__link--left">Gallery</a><!-- /.large-hero__circle__link -->
-        </div><!-- /.large-hero__circle -->
-        <div class="large-hero__circle large-hero__circle--right">
-          <a href="#" class="large-hero__circle__link--right">Gallery</a><!-- /.large-hero__circle__link -->
-        </div><!-- /.large-hero__circle -->
+        <a href="#" class="circle__text__link">
+          <div class="circle__text circle__text--left">
+            <div>Gallery</div>
+          </div>
+        </a>
+        <!-- /.circle__text -->
+        <div class="circle__text circle__text--right">
+          <div>Clubs</div>
+        </div>
     </div><!-- /.large-hero -->
-    <div class="banner">
-      <a href="#">
-        <div class="banner__box">
-          <h2 class="banner__box__title">Tickets</h2>
-          <img src="" class="banner__box__icon" alt="ticket-icon">
-        </div>  <!-- /.banner__box -->
-      </a>
-      <a href="#">
-        <div class="banner__box">
-          <h2 class="banner__box__title">What's on</h2>
-          <img src="" class="banner__box__icon" alt="ticket-icon">
-        </div>  <!-- /.banner__box -->
-      </a>
-      <a href="#">
-        <div class="banner__box">
-          <h2 class="banner__box__title">Getting Here</h2>
-          <img src="" class="banner__box__icon" alt="ticket-icon">
-        </div>  <!-- /.banner__box -->
-      </a>
-    </div><!-- /.banner -->
+
+    <div id="testimonials" class="page-section page-section--no-b-padding-until-large page-section--testimonials lazyload"  data-matching-link="#testimonials-link">
+      <div class="wrapper wrapper--no-padding-until-large">
+
+        <div class="row row--gutters row--gutters-small row--equal-height-at-large generic-content-container">
+          <div class="row__large-4">
+            <div class="banner">
+              <h3 class="banner__title banner__title--white">Tickets</h3>
+                <i class="banner__icon banner__icon--rotate-45 fas fa-ticket-alt"></i>
+            </div>
+          </div>
+          <div class="row__large-4">
+            <div class="banner">
+              <h3 class="banner__title banner__title--white">What's On</h3>
+                <i class="banner__icon fas fa-calendar-alt"></i>
+            </div>
+          </div>
+          <div class="row__large-4">
+            <div class="banner banner--last">
+              <h3 class="banner__title banner__title--white">Getting Here</h3>
+              <i class="banner__icon fas fa-map-marker-alt"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="testimonials" class="page-section page-section--no-b-padding-until-large page-section--tickets lazyload"  data-matching-link="#testimonials-link">
+      <div class="wrapper wrapper--no-padding-until-large">
+          <h2 class="section-title"><span class="icon icon--star section-title__icon"></span> <strong>Tickets &amp; Pricing</strong> </h2>
+        <div class="row row--gutters row--gutters-small row--equal-height-at-large generic-content-container">
+          <div class="row__large-4">
+            <div class="price-box">
+              <h2 class="price-box__title">£10</h2>
+              <h3 class="price-box__subtitle">Saturday Day Ticket</h3>
+              <a href="#" class="btn btn--border-light-green">Buy Now</a>
+            </div><!-- /.price-box -->
+          </div>
+          <div class="row__large-4">
+            <div class="price-box">
+              <h2 class="price-box__title">£10</h2>
+              <h3 class="price-box__subtitle">Camping Ticket</h3>
+              <a href="#" class="btn btn--border-light-green">Buy Now</a>
+            </div><!-- /.price-box -->
+          </div>
+          <div class="row__large-4">
+            <div class="price-box">
+              <h2 class="price-box__title">£10</h2>
+              <h3 class="price-box__subtitle">Sunday Day Ticket</h3>
+              <a href="#" class="btn btn--border-light-green">Buy Now</a>
+            </div><!-- /.price-box -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
     <div class="page-section">
-      <h2>Tickets &amp; Pricing</h2>
-      <div class="price-box">
-        <h2>£10</h2>
-        <h3>Saturday Day Ticket</h3>
-        <a href="#" class="btn">Buy Now</a>
-      </div><!-- /.price-box -->
-      <div class="price-box">
-        <h2>£10</h2>
-        <h3>Camping Ticket</h3>
-        <a href="#" class="btn">Buy Now</a>
-      </div><!-- /.price-box -->
-      <div class="price-box">
-        <h2>£10</h2>
-        <h3>Sunday Day Ticket</h3>
-        <a href="#" class="btn">Buy Now</a>
-      </div><!-- /.price-box -->
+
+
+
+
     </div><!-- /.page-section -->
     <div class="banner-club">
       <img src="" alt="vw flowery van">

@@ -18,6 +18,13 @@
     text-transform: uppercase;
   }
 
+  &--border-light-green {
+    border: 6px solid $lightGreen;
+    background: transparent;
+    color: $lightGreen;
+    text-transform: uppercase;
+  }
+
   &--large {
     padding: 1.1rem 1.9rem;
 
