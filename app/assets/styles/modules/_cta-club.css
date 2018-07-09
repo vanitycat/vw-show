@@ -1,0 +1,18 @@
+.cta-club {
+text-align: center;
+  padding-bottom: 40px;
+  @mixin atMedium {
+    padding-bottom: 0px;
+  }
+  &__icon {
+    display: none;
+    @mixin atSmall {
+      display: block;
+    }
+  }
+
+  &__container {
+    margin-top: 80px;
+    margin-bottom: 80px;
+  }
+}

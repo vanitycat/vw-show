@@ -2,7 +2,7 @@
   position: relative;
   border-bottom: 10px solid $darkBrown;
   overflow: hidden;
-  text-align: center;
+
 
   &__image {
     display: block;
@@ -11,6 +11,9 @@
   &__btn {
     position: absolute;
     top: 50%;
+    left:50%;
+    transform: translateX(-50%);
+
 
   }
 }

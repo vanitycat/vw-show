@@ -1,0 +1,13 @@
+.cta-traders {
+  text-align: center;
+  &__icon {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  &__container {
+    @mixin atMedium {
+      margin-top: 80px;
+      margin-bottom: 80px;
+    }
+  }
+}

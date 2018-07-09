@@ -421,6 +421,10 @@ textarea {
   font: inherit; /* 2 */
 }
 
+.center {
+margin: 0 auto;
+}
+
 body {
   font-family: 'lato', sans-serif;
   color: #333;
@@ -534,7 +538,7 @@ a {
 .large-hero__subtitle {
   font-weight: 600;
   color:#2f5572;
-  font-size: 1rem;
+  font-size: .9rem;
   margin: 0;
   text-transform: uppercase;
 }
@@ -558,6 +562,21 @@ a {
   .large-hero__subtitle {
     font-size: 2rem;
     line-height: 1.75;
+  }
+}
+
+.large-hero__btn {
+  font-size: 0.8rem;
+  margin-top: -10px;
+  margin-bottom: 40px;
+  font-weight: 600;
+}
+
+@media (min-width: 800px) {
+
+  .large-hero__btn {
+    font-size: 2rem;
+    margin-bottom: 0px;
   }
 }
 
@@ -603,6 +622,11 @@ a {
   color: #000000;
   font-weight: 600;
   text-transform: uppercase;
+}
+
+.btn--white {
+  background-color: rgba(255,255,255, .76);
+  color: #493329;
 }
 
 .btn--large {
@@ -1511,7 +1535,6 @@ a {
   margin-bottom: 98px;
   margin-left: auto;
   margin-right: auto;
-  width: 70%;
 }
 
 @media (min-width: 1010px) {
@@ -1520,6 +1543,12 @@ a {
     padding: 1.8125rem;
     margin-bottom: 0;
   }
+}
+
+.banner__link {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .banner--last {
@@ -1660,7 +1689,6 @@ a {
   position: relative;
   border-bottom: 10px solid #493329;
   overflow: hidden;
-  text-align: center;
 }
 
 .cta-gallery__image {
@@ -1670,6 +1698,53 @@ a {
 .cta-gallery__btn {
   position: absolute;
   top: 50%;
+  left:50%;
+  transform: translateX(-50%);
+}
+
+.cta-club {
+text-align: center;
+  padding-bottom: 40px;
+}
+
+@media (min-width: 800px) {
+
+  .cta-club {
+    padding-bottom: 0px;
+  }
+}
+
+.cta-club__icon {
+  display: none;
+}
+
+@media (min-width: 530px) {
+
+  .cta-club__icon {
+    display: block;
+  }
+}
+
+.cta-club__container {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.cta-traders {
+  text-align: center;
+}
+
+.cta-traders__icon {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 800px) {
+
+  .cta-traders__container {
+    margin-top: 80px;
+    margin-bottom: 80px;
+  }
 }
 
 .card-payments__title {

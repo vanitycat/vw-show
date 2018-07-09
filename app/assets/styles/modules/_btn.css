@@ -26,6 +26,11 @@
     text-transform: uppercase;
   }
 
+  &--white {
+    background-color: rgba(#ffffff, .76);
+    color: $darkBrown;
+  }
+
   &--large {
     padding: 1.1rem 1.9rem;
 

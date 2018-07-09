@@ -91,7 +91,7 @@
   &__subtitle {
       font-weight: 600;
       color:$mainBlue;
-      font-size: 1rem;
+      font-size: .9rem;
       margin: 0;
       text-transform: uppercase;
 
@@ -112,10 +112,20 @@
         @mixin atSmall {
           font-size: 2rem;
           line-height: 1.75
+
         }
 
       }
-
+  &__btn {
+    font-size: 0.8rem;
+    margin-top: -10px;
+    margin-bottom: 40px;
+    font-weight: 600;
+    @mixin atMedium {
+      font-size: 2rem;
+      margin-bottom: 0px;
+    }
+  }
   &__description {
     color: #fff;
     font-size: 1.1rem;

@@ -23,7 +23,11 @@
             Quex Park VW Show
           </div>
         <img class="site_header__logo">
+
       </div><!-- /.wrapper -->
+      <div class="site-header__menu-icon">
+        <div class="site-header__menu-icon__middle"></div>
+      </div>
         <nav class="primary-nav primary-nav--pull-right">
           <ul>
             <li><a href="#">Info</a></li>
@@ -49,7 +53,7 @@
                 <h2 class="large-hero__subtitle large-hero__subtitle--brown-white">Home is where you park</h2>
                 <h2 class="large-hero__subtitle large-hero__subtitle--white">28-30 june 2019</h2>
                 <h2 class="large-hero__subtitle large-hero__subtitle--green">Quex park</h2>
-                <p><a href="#" class="btn btn--border-green btn--large open-modal">Tickets on sale now</a></p>
+                <p><a href="#" class="btn btn--border-green large-hero__btn open-modal">Tickets on sale now</a></p>
               </div><!-- /.large-hero__box -->
           </div>
         </div>
@@ -65,12 +69,13 @@
         </div>
     </div><!-- /.large-hero -->
 
-    <div id="testimonials" class="page-section page-section--no-b-padding-until-large page-section--testimonials lazyload"  data-matching-link="#testimonials-link">
-      <div class="wrapper wrapper--no-padding-until-large">
+    <div id="testimonials" class="page-section page-section--testimonials lazyload"  data-matching-link="#testimonials-link">
+      <div class="wrapper">
 
         <div class="row row--gutters row--gutters-small row--equal-height-at-large generic-content-container">
+
           <div class="row__large-4">
-              <a href="#tickets">
+              <a class="banner__link" href="#tickets">
                 <div class="banner">
                   <h3 class="banner__title banner__title--white">Tickets</h3>
                     <i class="banner__icon banner__icon--rotate-45 fas fa-ticket-alt"></i>
@@ -78,7 +83,7 @@
               </a>
           </div>
           <div class="row__large-4">
-            <a href="#whats-on">
+            <a class="banner__link" href="#whats-on">
               <div class="banner">
                 <h3 class="banner__title banner__title--white">What's On</h3>
                   <i class="banner__icon fas fa-calendar-alt"></i>
@@ -86,12 +91,12 @@
             </a>
           </div>
           <div class="row__large-4">
-            <a href="#directions">
+            <a class="banner__link" href="#directions">
               <div class="banner banner--last">
                 <h3 class="banner__title banner__title--white">Getting Here</h3>
                 <i class="banner__icon fas fa-map-marker-alt"></i>
               </div>
-          </a>
+            </a>
           </div>
         </div>
       </div>
@@ -126,16 +131,19 @@
       </div>
     </div>
 
-    <div id="testimonials" class="page-section page-section--no-b-padding-until-large page-section--cta-club lazyload"  data-matching-link="#testimonials-link">
+    <div id="testimonials" class="page-section  page-section--cta-club lazyload"  data-matching-link="#testimonials-link">
       <div class="wrapper wrapper--no-padding-until-large">
-        <div class="banner-club">
+        <div class="cta-club">
           <div class="row row--gutters row--gutters-small generic-content-container">
             <div class="row__medium-6">
-              <div class="icon icon--flowery-vw"></div>
+              <div class="cta-club__icon icon icon--flowery-vw"></div>
             </div>
             <div class="row__medium-6">
-              <h2 class="cta-club__title">Are you a club?</h2>
-              <a href="#" class="btn">Click to Register</a>
+              <div class="cta-club__container">
+                <h2 class="cta-club__title">Are you a club?</h2>
+                <a href="#" class="btn btn--white">Click to Register</a>
+              </div><!-- /.cta-club__container -->
+
             </div>
         </div>
         </div><!-- /.banner-club -->
@@ -162,27 +170,33 @@
         <source srcset="assets/images/hero--small.jpg 990w, assets/images/hero--small-hi-dpi.jpg 1980w" media="(min-width: 640px)">
         <img srcset="assets/images/gallery--smaller.jpg 640w, assets/images/hero--smaller-hi-dpi.jpg 1280w" alt="coastal view" class="large-hero__image">
       </picture>
-      <a href="#" class="btn cta-gallery__btn">Gallery</a>
+      <a href="#" class="btn btn--white cta-gallery__btn">Gallery</a>
     </div><!-- /.gallery-banner -->
 
     <div id="directions" class="page-section page-section--no-b-padding-until-large page-section--whats-on lazyload"  data-matching-link="#testimonials-link">
       <div class="wrapper">
           <h2 class="section-title"><span class="icon icon--star section-title__icon"></span> <strong>Getting Here</strong> </h2>
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4982.024170607874!2d1.3133921261670296!3d51.36607451692721!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d94d65cdd34aab%3A0xcb577be09b3af99d!2sBirchington+CT7+0BH!5e0!3m2!1sen!2suk!4v1531086136731" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+          <div class="center">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4982.024170607874!2d1.3133921261670296!3d51.36607451692721!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d94d65cdd34aab%3A0xcb577be09b3af99d!2sBirchington+CT7+0BH!5e0!3m2!1sen!2suk!4v1531086136731" width="100%" height="auto" min-height:"300px" frameborder="0" style="border:0" allowfullscreen ></iframe>
+          </div>  <!-- /.center -->
 
       </div>
     </div>
 
-    <div id="testimonials" class="page-section page-section--no-b-padding-until-large page-section--cta-club lazyload"  data-matching-link="#testimonials-link">
+    <div id="testimonials" class="page-section  page-section--cta-club lazyload"  data-matching-link="#testimonials-link">
       <div class="wrapper wrapper--no-padding-until-large">
-        <div class="banner-club">
+        <div class="cta-traders">
           <div class="row row--gutters row--gutters-small generic-content-container">
             <div class="row__medium-6">
-              <div class="icon icon--shop"></div>
+              <div class="cta-traders__icon icon icon--shop"></div>
             </div>
             <div class="row__medium-6">
-              <h2 class="cta-traders text-center">Looking to Trade with us</h2>
-              <a href="#" class="btn cta-traders__btn">Click to Register</a>
+              <div class="cta-traders__container">
+                <h2 class="cta-traders__title">Looking to Trade with us</h2>
+                <a href="#" class="btn btn--white cta-traders__btn">Click to Register</a>
+              </div>
+              <!-- /.cta-traders__container -->
+
             </div>
         </div>
         </div><!-- /.banner-club -->

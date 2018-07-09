@@ -9,3 +9,7 @@ $lightGreen: #A1AF8B;
 
 $primaryBrand: $mainGreen;
 $secondaryBrand: $mainOrange;
+
+.center {
+margin: 0 auto;
+}
